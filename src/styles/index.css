@@ -1,0 +1,16 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1538438253612-287c9fc9217e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#app{
+    margin-left: 30%;
+    margin-top: 15%;
+    width: 45%;
+    color:rgba(150, 77, 4, 0.966);
+    background-color: rgba(236, 238, 240, 0.774);
+    border-style:groove;
+    font-family:'Courier New', Courier, monospace;
+    
+}

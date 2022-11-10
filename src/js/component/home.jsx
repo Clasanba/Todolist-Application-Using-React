@@ -21,13 +21,14 @@ const Home = () => {
 
 
     return ( //Utilizamos onSubmit para que guarde las tareas dandole a intro. También podría actuar con un botón metiendolo como si fuera su hijo
-        <div className="container">
+       <> 
+       <div className="">
         <div>
-            <h1>Tareas</h1>
+            <h1 className="fw-semibold">¿Qué tengo que hacer hoy?</h1>
         </div>
         <div>
             <form onSubmit={onAddButtonClick} className="input-group mb-3">
-                <input ref={inputRef} type="text" className="form-control" aria-label="Text input with segmented dropdown button" />
+                <input ref={inputRef} type="text" className="form-control text fw-semibold" aria-label="Text input with segmented dropdown button" />
             </form>
         </div>
             {tasks.length === 0
@@ -37,6 +38,7 @@ const Home = () => {
                 })
             }
         </div>
+        </>
     );
 };
 

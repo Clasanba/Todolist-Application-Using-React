@@ -22,7 +22,8 @@ const Home = () => {
 
     return ( //Utilizamos onSubmit para que guarde las tareas dandole a intro. También podría actuar con un botón metiendolo como si fuera su hijo
        <> 
-       <div className="">
+       
+       <div className="container">
         <div>
             <h1 className="fw-semibold">¿Qué tengo que hacer hoy?</h1>
         </div>
@@ -34,9 +35,10 @@ const Home = () => {
             {tasks.length === 0
                 ? (<span>No hay tareas, añadir tareas</span>) // la función map puedo pasarle hasta tres argumentos: el elemento actual, el index o i y un array. En este caso hemos pasado el elemento actual y la i.
                 : tasks.map((taskElement, i) => {
-                    return (<li key={i}>{taskElement}<button type="button" className="btn-close" aria-label="Delete" onClick={() => onDeleteButtonClick(i)}></button></li>) // llamamos a la funcion onDeleteButtonClick parandole como atributo la posición que me da map en este caso es i.
+                    return (<li key={i}>{taskElement}<button type="button" className="fa-regular fa-trash-can btn-delete" aria-label="Delete" onClick={() => onDeleteButtonClick(i)}></button></li>) // llamamos a la funcion onDeleteButtonClick parandole como atributo la posición que me da map en este caso es i.
                 })
             }
+            
         </div>
         </>
     );

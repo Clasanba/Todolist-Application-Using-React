@@ -6,7 +6,7 @@ Con What To Do Today podrás gestionar las tareas del día.
 <img src="src/img/wtdt-no-tasks.png">
 <img src="src/img/wtdt-tasks.png">
 
-## Instala el paquete npm
+## Instala dependencias
 
 ```
 $ npm install

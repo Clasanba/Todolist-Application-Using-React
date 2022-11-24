@@ -1,9 +1,13 @@
 # What To Do Today?
+
 Con What To Do Today podrás gestionar las tareas del día.
+
+
 <img src="src/img/wtdt-no-tasks.png">
 <img src="src/img/wtdt-tasks.png">
 
-##### Instala el paquete npm
+## Instala el paquete npm
+
 ```
 $ npm install
 ```
@@ -30,5 +34,8 @@ Esta plantilla es similar a create-react-app pero está pensada para los estudia
 
 La aplicación cumple con todos los requisitos del ejercicio. Además he aprovechado para prácticar el diseño responsivo y el despliegue de la aplicación en Vercel.
 
+<img src="src/img/wtdt-responsive.png">
 
+Puedes probar cómo funciona aquí:
 
+https://what-to-do-today-xi.vercel.app/
